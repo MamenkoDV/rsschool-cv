@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Dmytro Mamenko CV</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous"/>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            li {
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                max-width: 1024px;
+                margin: 0 auto;
+                background-color: #cceea1;
+            }
+
+            h1,h2,h3,h4,h5 {
+                margin: 0;
+                padding: 0;
+            }
+
+            .avatar img {
+                border-radius: 50%;
+                border: 3px solid #fc600a;
+            }
+
+            .avatar:hover img {
+                border-radius: 50%;
+                border: 3px solid #fff;
+                animation: rotate 2s;
+            }
+
+            @keyframes rotate {
+                0% {
+                    border-color: darkorange;
+                    transform: rotate(0deg);
+                }
+
+                25% {
+                    border-color: yellow;
+                    transform: rotate(90deg);
+                }
+
+                50% {
+                    border-color: blue;
+                    transform: rotate(180deg);
+                }
+
+                75% {
+                    border-color: green;
+                    transform: rotate(270deg);
+                }
+
+                100% {
+                    border-color: red;
+                    transform: rotate(360deg);
+                }
+            }
+
+            header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border-bottom: 2px solid green;
+                padding-bottom: 15px;
+            }
+
+            .links img {
+                align-items: center;
+                margin-right: 5px;
+                margin-bottom: 0;
+            }
+
+            .links__item {
+                flex-direction: row;
+                display: inline-flex;
+                align-items: center;
+                margin-left: 10px;
+                padding: 10px 10px;
+                background-color: #658d34;
+                border-radius: 3px;
+                text-decoration: none;
+            }
+
+            .links__item :hover {
+                color: #000;
+                transition: 0.4s;
+            }
+
+            .links__item a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .location {
+                margin-bottom: 15px;
+            }
+
+            section {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-bottom: 2px solid green;
+            }
+
+            .wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 50%;
+            }
+
+            h2 {
+                background-color: #fc600a;
+                writing-mode: vertical-rl;
+                text-align: center;
+                height: 50%;
+            }
+
+            .description {
+                padding-left: 20px;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Dmytro Mamenko</h1>
+                <div class="avatar">
+                    <img src="../img/ME.jpg" alt="My Photo" height="200" width="200"/>
+                </div>
+                <div class="location">
+                    <img src="/img/icons/geoloc.svg" width="15" height="15"/>Dnipro,Ukraine
+          
+                </div>
+                <div class="links">
+                    <div class="links__item">
+                        <img src="/img/icons/gmail.webp" width="15" height="15" alt="telegram Icon"/>
+                        <a href="mamenko.dv@gmail.com">My Email</a>
+                    </div>
+                    <div class="links__item">
+                        <img src="/img/icons/telegram.png" width="15" height="15" alt="telegram Icon"/>
+                        <a href="https://t.me/MamenkoDV">My Telegram</a>
+                    </div>
+                    <div class="links__item">
+                        <img src="/img/icons/github.png" width="15" height="15" alt="telegram Icon"/>
+                        <a href="https://github.com/MamenkoDV">My GitHub</a>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section class="skills">
+                    <div class="wrapper">
+                        <h2>Skills</h2>
+                        <div class="description">
+                            <ul>
+                                <li>HTML</li>
+                                <li>
+                                    CSS
+                    
+                                    <ul>
+                                        <li>flexbox</li>
+                                        <li>grid</li>
+                                        <li>animations</li>
+                                        <li>preprocessors</li>
+                                        <li>etc...</li>
+                                    </ul>
+                                </li>
+                                <li>JavaScript</li>
+                                <li>PHP basics</li>
+                                <li>SQL basics</li>
+                                <li>GIT basics</li>
+                                <li>Work with different graphic redactors  (Photoshop, Figma,avocode,etc...)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section class="skills">
+                <section class="education">
+                    <div class="wrapper">
+                        <h2>Education and Experience</h2>
+                        <div class="description">
+                            <strong>Dnipro National University of Railway Transport named after Academician V. Lazaryan (Dnipro) </strong>
+                            <em>Department of Electronic Counting Machines</em>
+                            <em>Computer Engineering, Bachelor’s Degree</em>
+                            <h3>Self-education</h3>
+                            <a href="freecodecamp.org">freecodecamp</a>
+                            <a href="htmlacademy.ru">htmlacademy</a>
+                            <a href="udemy.com">udemy</a>
+                            <a href="learnjavascript.ru">learnjavascript</a>
+                            <a href=""></a>
+                            <p>Also different courses from youtube.
+For education, I also use sites like MDN, W3scool, hexlet. Also, I like to listen to podcasts like FrontEndWeekend, WebStandarts, DevShacht,5minJS, etc.
+</p>
+                            <h4>English</h4>
+                            <p>Level B1-B2.
+    I spend a lot of time listening to English podcasts and also read articles 
+    and technical documentation it`s constantly expanding my vocabulary Also, I try to 
+    speak with native speakers when I have such an opportunity</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="summary">
+                    <div class="wrapper">
+                        <h2>Summary</h2>
+                        <div class="description">
+                            <p>At the moment I have not commercial experience as Front-End developer, but i do a lot of practice and learn new technologies and features.</p>
+                            <p>I like development because of many reasons.</p>
+                            <p>At first it very interesting for me and it`s a kind of magic when you force a machine to do something you want.</p>
+                            <p>At second in programming, this is amazing to see an immediate result of your work</p>
+                            <p>The third only in Front-End I found such a friendly community, guys who always happy to help you in any question even stupid question. I think it is the most dynamic and creative community in the development branch and I would be glad to become a part of it.</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
