@@ -1,1 +1,1 @@
-[GitHub](https://MamenkoDV.github.io/rsschool-cv/)
+[GitHub](https://MamenkoDV.github.io/rsschool-cv/cv)
